@@ -1,0 +1,9 @@
+services:
+  details:
+    build: .
+    image: ghcr.io/fluk14150/bookinfo-details:dev
+    ports:
+      - "8081:9080"
+  
+      
+      
